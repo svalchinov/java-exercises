@@ -1,6 +1,6 @@
 public class UniquePaths {
 
-    public int uniquePathsWithObstacles(int m, int n) {
+    public int uniquePaths(int m, int n) {
         // create row of items
         int[] row = new int[n];
 
