@@ -1,11 +1,11 @@
 
 public class TicketMachine {
 
-    public int solution(int[] monthDays) {
+    final static int singleTicketPrice = 2;
+    final static int weeklyTicketPrice = 7;
+    final static int monthlyTicketPrice = 25;
 
-        final int singleTicketPrice = 2;
-        final int weeklyTicketPrice = 7;
-        final int monthlyTicketPrice = 25;
+    public int solution(int[] monthDays) {
 
         int total = 0;
         int singleTicketTotal = 0;
@@ -20,7 +20,6 @@ public class TicketMachine {
                 if (singleTicketTotal + singleTicketPrice > 7 && monthDays[i] - firstNoTicketDay <= 7) {
                     total += weeklyTicketPrice;
                     singleTicketTotal = 0;
-
                     sevenDayPurchaseDate = firstNoTicketDay;
                 }
             }
