@@ -1,7 +1,6 @@
 public class CyclicRotation {
 
     public int[] solution(int[] array, long index) {
-
         for (int i = 0; i < index; i++) {
             array = shiftByOne(array);
         }
