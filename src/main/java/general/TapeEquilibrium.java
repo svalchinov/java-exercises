@@ -1,3 +1,5 @@
+package general;
+
 /**
  * A[0] = 3
  * A[1] = 1

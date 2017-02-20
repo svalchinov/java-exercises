@@ -1,3 +1,6 @@
+package general;
+
+import general.FrogJump;
 import org.junit.Before;
 import org.junit.Test;
 

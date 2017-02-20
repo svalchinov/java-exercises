@@ -1,3 +1,6 @@
+package general;
+
+import general.Staircase;
 import org.junit.Before;
 import org.junit.Test;
 

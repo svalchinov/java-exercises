@@ -1,4 +1,4 @@
-/*
+package general;/*
 
 solution(6)
 

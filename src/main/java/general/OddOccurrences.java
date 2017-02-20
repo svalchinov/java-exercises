@@ -1,3 +1,5 @@
+package general;
+
 public class OddOccurrences {
 
     public int solution(int[] array) {

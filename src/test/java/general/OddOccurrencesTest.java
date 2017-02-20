@@ -1,3 +1,6 @@
+package general;
+
+import general.OddOccurrences;
 import org.junit.Before;
 import org.junit.Test;
 

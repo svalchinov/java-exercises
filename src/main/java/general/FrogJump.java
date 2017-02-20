@@ -1,3 +1,5 @@
+package general;
+
 public class FrogJump {
 
     public int solution(int x, int y, int d) {

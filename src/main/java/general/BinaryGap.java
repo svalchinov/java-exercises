@@ -1,3 +1,5 @@
+package general;
+
 public class BinaryGap {
 
     public int solution(int number) {

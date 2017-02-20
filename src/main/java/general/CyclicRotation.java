@@ -1,3 +1,5 @@
+package general;
+
 public class CyclicRotation {
 
     public int[] solution(int[] array, long index) {

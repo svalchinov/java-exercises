@@ -1,3 +1,6 @@
+package general;
+
+import general.CyclicRotation;
 import org.junit.Before;
 import org.junit.Test;
 

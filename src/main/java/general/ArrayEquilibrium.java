@@ -1,3 +1,5 @@
+package general;
+
 public class ArrayEquilibrium {
 
     public int solution(int[] array) {
