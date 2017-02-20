@@ -7,6 +7,9 @@ package specific;
  * T - position of hits
  * <p/>
  * return the count of sunken ships and the count of ships hit but not sunk separated with a comma
+ *
+ *
+ * Working but messy solution (WIP)
  */
 public class Game {
 
